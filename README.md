@@ -7,19 +7,19 @@ A simple Python banking program that lets users create an account, check balance
 
 ## 📌 Overview
 This is a minimal **banking system** written in Python. It runs in the terminal and allows a user to:
-- Create an account (enters details – but data is not saved between runs)
-- Check balance
-- Deposit money
-- Withdraw money (with insufficient balance check)
-- Exit the program
+- Create an account (enters details – but data is not saved between runs).
+- Check balance.
+- Deposit money.
+- Withdraw money (with insufficient balance check).
+- Exit the program.
 
 > **Note:** This is a **single-session, single-user** simulation. No database or file storage is used – data resets when the program ends.
 
 ## ✨ Features
-- User-friendly menu system (1-5)
-- Input validation for negative deposit/withdrawal amounts
-- Insufficient balance protection
-- Clear balance display in Indian Rupees (₹)
+- User-friendly menu system (1-5).
+- Input validation for negative deposit/withdrawal amounts.
+- Insufficient balance protection.
+- Clear balance display in Indian Rupees (₹).
 
 ## 🛠️ How It Works (Code Logic)
 1. The `main()` function initializes `balance = 0` and runs a `while` loop.
